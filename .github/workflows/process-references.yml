@@ -27,12 +27,18 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v3
-      - run: mkdir output
+      # - run: mkdir output
       - uses: maxheld83/pandoc@v2
         with:
-          args: "--output=output/README.md -t gfm --bibliography source/references.bib --csl source/apa.csl source/source.md"
+          args: "--output=README.md -t gfm --bibliography source/references.bib --csl source/apa.csl source/source.md"
           # args: "--help"
-      - uses: actions/upload-artifact@master
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "Add changes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          name: output
-          path: output
+          github_token: ${{ secrets.GH_TOKEN }}
+          branch: ${{ github.ref }}
