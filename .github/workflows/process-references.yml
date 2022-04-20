@@ -1,37 +1,26 @@
 # name: Generate references
 
-# on: push
-
-# jobs:
-#   convert_via_pandoc:
-#     runs-on: ubuntu-18.04
-#     steps:
-#       - uses: docker://pandoc/core:2.9
-#         with:
-#           args: >- # allows you to break string into multiple lines
-#             -s
-#             --output=README.md
-#             --bibliography source/references.bib 
-#             --citeproc 
-#             --csl source/apa.csl
-#             -t gfm
-#             source/source.md
-
-name: Process README markdown
+name: Generate README with references and pdf version of markdown source
 
 on: [push]
 
 jobs:
   convert_via_pandoc:
-    name: Convert via Pandoc
+    name: Converting via Pandoc
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v3
-      # - run: mkdir output
-      - uses: maxheld83/pandoc@v2
+
+      - name: Generate new README.md
+        uses: maxheld83/pandoc@v2
         with:
           args: "--output=README.md -t gfm --bibliography source/references.bib --csl source/apa.csl source/source.md"
-          # args: "--help"
+
+      - name: Generate new pdf version
+        uses: maxheld83/pandoc@v2
+        with:
+          args: "--output=output/oceania-data-guide.pdf --bibliography source/references.bib --csl source/apa.csl source/source.md"
+
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
