@@ -30,8 +30,8 @@ jobs:
       - run: mkdir output
       - uses: maxheld83/pandoc@v2
         with:
-          # args: "--output=output/README.md -t gfm --bibliography source/references.bib --citeproc --csl source/apa.csl source/source.md"
-          args: "--help"
+          args: "--output=output/README.md -t gfm --bibliography source/references.bib --csl source/apa.csl source/source.md"
+          # args: "--help"
       - uses: actions/upload-artifact@master
         with:
           name: output
