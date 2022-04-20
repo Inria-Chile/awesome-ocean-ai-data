@@ -17,7 +17,7 @@
 #             -t gfm
 #             source/source.md
 
-name: Convert README to PDF
+name: Process README markdown
 
 on: [push]
 
@@ -30,7 +30,7 @@ jobs:
       - run: mkdir output
       - uses: maxheld83/pandoc@v2
         with:
-          args: "--pdf-engine=xelatex --output=output/README.pdf README.md"
+          args: "--output=output/README.md -t gfm --bibliography source/references.bib --citeproc --csl source/apa.csl source/source.md"
       - uses: actions/upload-artifact@master
         with:
           name: output
