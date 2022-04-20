@@ -1,18 +1,37 @@
-name: Generate references
+# name: Generate references
 
-on: push
+# on: push
+
+# jobs:
+#   convert_via_pandoc:
+#     runs-on: ubuntu-18.04
+#     steps:
+#       - uses: docker://pandoc/core:2.9
+#         with:
+#           args: >- # allows you to break string into multiple lines
+#             -s
+#             --output=README.md
+#             --bibliography source/references.bib 
+#             --citeproc 
+#             --csl source/apa.csl
+#             -t gfm
+#             source/source.md
+
+name: Convert README to PDF
+
+on: [push]
 
 jobs:
   convert_via_pandoc:
+    name: Convert via Pandoc
     runs-on: ubuntu-18.04
     steps:
-      - uses: docker://pandoc/core:2.9
+      - uses: actions/checkout@v3
+      - run: mkdir output
+      - uses: maxheld83/pandoc@v2
         with:
-          args: >- # allows you to break string into multiple lines
-            -s
-            --output=README.md
-            --bibliography source/references.bib 
-            --citeproc 
-            --csl source/apa.csl
-            -t gfm
-            source/source.md
+          args: "--pdf-engine=xelatex --output=output/README.pdf README.md"
+      - uses: actions/upload-artifact@master
+        with:
+          name: output
+          path: output
