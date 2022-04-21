@@ -14,7 +14,7 @@ jobs:
       - name: Generate new README.md
         uses: maxheld83/pandoc@v2
         with:
-          args: "--output=README.md -t gfm --bibliography source/references.bib --csl source/apa.csl source/source.md"
+          args: "--output=README.md -t gfm --toc --bibliography source/references.bib --csl source/apa.csl source/source.md"
 
       - name: Generate new pdf version
         uses: maxheld83/pandoc@v2
