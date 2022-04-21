@@ -8,6 +8,7 @@ documentclass: scrartcl
 # [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Inria-Chile/awesome)
 ---
 
+# Open Ocean Data Collection for AI and ML bubu [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Inria-Chile/awesome)
 
 ## *An Open Ocean Data Collection for AI and ML*
 
