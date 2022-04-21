@@ -4,7 +4,7 @@ link-citations: true
 title: Open Ocean Data Collection for AI and ML
 author: Inria Challenge OcéanIA Project
 documentclass: scrartcl
-header-includes: \usepackage{libertinus}\usepackage{inconsolata}
+header-includes: \usepackage{inconsolata}
 # [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Inria-Chile/awesome)
 ---
 
