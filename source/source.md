@@ -1,7 +1,7 @@
 ---
 reference-section-title: References
 link-citations: true
-title: Open Ocean Data Collection for AI and ML
+# title: Open Ocean Data Collection for AI and ML
 author: Inria Challenge OcéanIA Project
 documentclass: scrartcl
 # header-includes: \usepackage{inconsolata}
