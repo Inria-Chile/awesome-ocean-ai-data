@@ -8,7 +8,8 @@ documentclass: scrartcl
 # [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Inria-Chile/awesome)
 ---
 
-# Open Ocean Data Collection for AI and ML bubu [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Inria-Chile/awesome)
+# Open Ocean Data Collection for AI and ML bubu [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Inria-Chile/awesome)[![License: CeCILLv2.1](https://img.shields.io/badge/license-CeCILL--v2.1-orange)](https://cecill.info/licences.en.html)
+
 
 ## *An Open Ocean Data Collection for AI and ML*
 
@@ -39,7 +40,7 @@ The annotated image set can be downloaded at the following citable URI: <http://
 
 The images are part of a much larger data set (>700 million images) collected in situ by automated submersible imaging-in-flow cytometry with an instrument called Imaging FlowCytobot (IFCB) [@Olson2007;@Sosik2007] at the Martha's Vineyard Coastal Observatory (MVCO) starting in 2006 and continuing to the present. Near real time image data and the complete archive are accessible for browse and download at the [IFCB Data Dashboard](http://ifcb-data.whoi.edu/mvco).
 
-## Satelite imaging datasets
+## Satellite imaging datasets
 
 ### google earth, data observatory, sentinel, copernicus, etc.}
 
