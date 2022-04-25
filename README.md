@@ -93,18 +93,18 @@ annotated. They also have an ML-based image classifier.
 
 Ecotaxa data is available via an
 [API](https://ecotaxa.obs-vlfr.fr/api/docs) allowing to programatically
-interrogate and download parts of the datasets that are both validated
-and under CC-BY license (which is the case for the Tara Ocean).
+query and download parts of the datasets that are both validated and
+under CC-BY license (which is the case for the Tara Ocean).
 
 Datasets mentioned [here](https://github.com/ecotaxa/ecotaxa/issues/426)
 are all under that license.
 
   - [Python client for the Ecotaxa’s
-    API](https://github.com/ecotaxa/pyecotaxa)
+    API](https://github.com/ecotaxa/pyecotaxa).
   - Another Python API (?)
-    <https://github.com/ecotaxa/ecotaxa_py_client>
-  - [R client for Ecotaxa’s API](https://github.com/ecotaxa/ecotaxar)
-  - Other Ecotaxa-related repositories: https://github.com/ecotaxa
+    <https://github.com/ecotaxa/ecotaxa_py_client>.
+  - [R client for Ecotaxa’s API](https://github.com/ecotaxa/ecotaxar).
+  - Other Ecotaxa-related repositories: <https://github.com/ecotaxa>.
 
 #### Example in R
 
@@ -239,21 +239,21 @@ how to register your own datasets.
 <div id="ref-devargas-2015-w4">
 
 De Vargas, C., Tara Oceans Consortium, C., & Tara Oceans Expedition, P.
-(2015a). *Total v9 rDNA information organized at the metabarcode level
-(database w4), supplement to: De vargas, colomban; audic, stephane;
-henry, nicolas; decelle, johan; mahe, jean-claude; logares, ramiro;
-lara, enrique; berney, cédric; le bescot, noan; probert, ian;
-carmichael, margaux; poulain, julie; romac, sarah; colin, sébastien;
-aury, jean-marc; bittner, lucie; chaffron, samuel; dunthorn, micah;
-engelen, stefan; flegontova, olga; horák, aleš; jaillon, olivier;
-lima-mendez, gipsi; lukes, julius; malviya, shruti; morard, raphael;
-mulot, matthieu; scalco, eleonora; siano, raffaele; zingone, adriana;
-picheral, marc; searson, sarah; kandels-lewis, stefanie; acinas, silvia
-g; gorsky, gabriel; grimsley, nigel; hingamp, pascal; iudicone, daniele;
-not, fabrice; ogata, hiroyuki; sieracki, michael; speich, sabrina;
-stemmann, lars; sunagawa, shinichi; wincker, patrick; karsenti, eric
-(2015): First tara oceans v9 rDNA metabarcoding dataset. Zenodo*.
-PANGAEA - Data Publisher for Earth & Environmental Science.
+(2015a). *Total V9 rDNA information organized at the metabarcode level
+(Database W4), supplement to: De Vargas, Colomban; Audic, Stephane;
+Henry, Nicolas; Decelle, Johan; Mahe, Jean-Claude; Logares, Ramiro;
+Lara, Enrique; Berney, Cédric; Le Bescot, Noan; Probert, Ian;
+Carmichael, Margaux; Poulain, Julie; Romac, Sarah; Colin, Sébastien;
+Aury, Jean-Marc; Bittner, Lucie; Chaffron, Samuel; Dunthorn, Micah;
+Engelen, Stefan; Flegontova, Olga; Horák, Aleš; Jaillon, Olivier;
+Lima-Mendez, Gipsi; Lukes, Julius; Malviya, Shruti; Morard, Raphael;
+Mulot, Matthieu; Scalco, Eleonora; Siano, Raffaele; Zingone, Adriana;
+Picheral, Marc; Searson, Sarah; Kandels-Lewis, Stefanie; Acinas, Silvia
+G; Gorsky, Gabriel; Grimsley, Nigel; Hingamp, Pascal; Iudicone, Daniele;
+Not, Fabrice; Ogata, Hiroyuki; Sieracki, Michael; Speich, Sabrina;
+Stemmann, Lars; Sunagawa, Shinichi; Wincker, Patrick; Karsenti, Eric
+(2015): First Tara Oceans V9 rDNA metabarcoding dataset*. PANGAEA - Data
+Publisher for Earth & Environmental Science.
 <https://doi.org/10.1594/PANGAEA.843018>
 
 </div>
@@ -261,22 +261,21 @@ PANGAEA - Data Publisher for Earth & Environmental Science.
 <div id="ref-devargas-2015-w5">
 
 De Vargas, C., Tara Oceans Consortium, C., & Tara Oceans Expedition, P.
-(2015b). *Total v9 rDNA information organized at the otu level (database
-w5), supplement to: De vargas, colomban; audic, stephane; henry,
-nicolas; decelle, johan; mahe, jean-claude; logares, ramiro; lara,
-enrique; berney, cédric; le bescot, noan; probert, ian; carmichael,
-margaux; poulain, julie; romac, sarah; colin, sébastien; aury,
-jean-marc; bittner, lucie; chaffron, samuel; dunthorn, micah; engelen,
-stefan; flegontova, olga; horák, aleš; jaillon, olivier; lima-mendez,
-gipsi; lukes, julius; malviya, shruti; morard, raphael; mulot, matthieu;
-scalco, eleonora; siano, raffaele; zingone, adriana; picheral, marc;
-searson, sarah; kandels-lewis, stefanie; acinas, silvia g; gorsky,
-gabriel; grimsley, nigel; hingamp, pascal; iudicone, daniele; not,
-fabrice; ogata, hiroyuki; sieracki, michael; speich, sabrina; stemmann,
-lars; sunagawa, shinichi; wincker, patrick; karsenti, eric (2015): First
-tara oceans v9 rDNA metabarcoding dataset. Zenodo*. PANGAEA - Data
-Publisher for Earth & Environmental Science.
-<https://doi.org/10.1594/PANGAEA.843022>
+(2015b). *Total V9 rDNA information organized at the OTU level (Database
+W5), supplement to: De Vargas, Colomban; Audic, Stephane; Henry,
+Nicolas; Decelle, Johan; Mahe, Jean-Claude; Logares, Ramiro; Lara,
+Enrique; Berney, Cédric; Le Bescot, Noan; Probert, Ian; Carmichael,
+Margaux; Poulain, Julie; Romac, Sarah; Colin, Sébastien; Aury,
+Jean-Marc; Bittner, Lucie; Chaffron, Samuel; Dunthorn, Micah; Engelen,
+Stefan; Flegontova, Olga; Horák, Aleš; Jaillon, Olivier; Lima-Mendez,
+Gipsi; Lukes, Julius; Malviya, Shruti; Morard, Raphael; Mulot, Matthieu;
+Scalco, Eleonora; Siano, Raffaele; Zingone, Adriana; Picheral, Marc;
+Searson, Sarah; Kandels-Lewis, Stefanie; Acinas, Silvia G; Gorsky,
+Gabriel; Grimsley, Nigel; Hingamp, Pascal; Iudicone, Daniele; Not,
+Fabrice; Ogata, Hiroyuki; Sieracki, Michael; Speich, Sabrina; Stemmann,
+Lars; Sunagawa, Shinichi; Wincker, Patrick; Karsenti, Eric (2015): First
+Tara Oceans V9 rDNA metabarcoding dataset*. PANGAEA - Data Publisher for
+Earth & Environmental Science. <https://doi.org/10.1594/PANGAEA.843022>
 
 </div>
 
