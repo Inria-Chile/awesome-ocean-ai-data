@@ -13,14 +13,15 @@ author: Inria Challenge OcéanIA Project
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Inria-Chile/awesome)[![License: CeCILLv2.1](https://img.shields.io/badge/license-CeCILL--v2.1-orange)](https://cecill.info/licences.en.html)
 
-
 ## About
 
 This is a dataset collection the Challenge [**AI methods for determining ocean ecosystems from space: Combining genomic information, microscopic and satellite imagery**](https://oceania.inria.cl/#ai-ocean-challenge-2022) to be held in conjunction with the [**31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI-2022)**](https://ijcai-22.org) on July 23-29, 2022, in [Messe Wien](https://www.messecongress.at/), Vienna, Austria.
 
-The collection goes by listing sources for genomic, microscopic imaging and satelite data. We also list other datasets relevant to particular papers.
+The collection goes by listing sources for genomic, microscopic imaging and satellite data. We also list other datasets relevant to particular papers.
 
-It falls under the activities of [Inria Project OcéanIA](https://oceania.inria.cl).
+This compilation falls under the activities of [Inria Project OcéanIA](https://oceania.inria.cl).
+
+**Note:** This document will be frequently updated. Stay tuned!
 
 ## Contributing
 
@@ -34,7 +35,7 @@ An online service to extract biologic subsequences of interest from large FASTA 
 
 `oceania-fasta-query` consists of:
 
-- an online service currently provided by Inria Chile, and
+- An online service currently provided by Inria Chile, and
 - a Python client that queries on the online services and allows you to work locally on the results through a Python script or a Jupyter notebook.
 
 #### Installing `oceania-fasta-query`
@@ -56,7 +57,7 @@ From your Python code or notebook import the `oceania` module and use method `ge
 
 ### Ecotaxa
 
-Credit: part of this information was provided by Fabien.
+Credit: part of this information was provided by [Fabien Lombard](https://lov.imev-mer.fr/web/member/fabien-lombard/).
 
 [Ecotaxa](https://ecotaxa.obs-vlfr.fr) [@ecotaxa] that images contains
 over 188 million "objects" captured by different microscopes. Part of
@@ -136,6 +137,16 @@ The images are part of a much larger data set (>700 million images) collected in
 
 - Available datasets: <https://developers.google.com/earth-engine/datasets/>.
 - Case studies: <https://earthengine.google.com/case_studies/>.
+
+### Open Data on AWS
+
+The Registry of Open Data on AWS makes it easy to find datasets made publicly available through AWS services. Browse available data and learn how to register your own datasets.
+
+- Datasets available are listed here: <https://registry.opendata.aws>.
+- A (probably incomplete) list of datasets of interest:
+  - [Sentinel-2](https://registry.opendata.aws/sentinel-2/)
+  - [NOAA Geostationary Operational Environmental Satellites (GOES) 16 & 17](https://registry.opendata.aws/noaa-goes/)
+  - [SpaceNet](https://registry.opendata.aws/spacenet/)
 
 ## Datasets organized by papers that them
 
