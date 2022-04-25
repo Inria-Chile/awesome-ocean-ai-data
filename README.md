@@ -83,8 +83,8 @@ for instance:
 
 Credit: part of this information was provided by Fabien.
 
-[Ecotaxa](https://ecotaxa.obs-vlfr.fr) Picheral et al.
-([2017](#ref-ecotaxa)) that images contains over 188 million “objects”
+[Ecotaxa](https://ecotaxa.obs-vlfr.fr) (Picheral et al.,
+[2017](#ref-ecotaxa)) that images contains over 188 million “objects”
 captured by different microscopes. Part of the dataset has been manually
 annotated. They also have an ML-based image classifier.
 
@@ -94,9 +94,10 @@ interrogate and download parts of the datasets that are both validated
 and under CC-BY license (which is the case for the Tara Ocean).
 
 Datasets mentioned [here](https://github.com/ecotaxa/ecotaxa/issues/426)
-are all under such license Sorbonne Université/CNRS-Institut De La Mer
-De Villefranche (IMEV) & and
-([2020](#ref-10.14284/473));10.14284/479;10.14284/480;10.14284/481;10.14284/477;10.14284/478.
+are all under such license \[Sorbonne Université/CNRS-Institut De La Mer
+De Villefranche (IMEV) & Sorbonne Université/CNRS-Laboratoire
+D’Océanographie De Villefranche (LOV)
+([2020](#ref-10.14284/473));10.14284/479;10.14284/480;10.14284/481;10.14284/477;10.14284/478\].
 
   - [Python client for the Ecotaxa’s
     API](https://github.com/ecotaxa/pyecotaxa)
@@ -215,7 +216,8 @@ taxonomic classification of images*. <http://ecotaxa.obs-vlfr.fr>
 <div id="ref-10.14284/473">
 
 Sorbonne Université/CNRS-Institut De La Mer De Villefranche (IMEV), &
-and, S. (2020). *Plankton community in wp2 net (200µm), point b,
+Sorbonne Université/CNRS-Laboratoire D’Océanographie De Villefranche
+(LOV). (2020). *Plankton community in wp2 net (200µm), point b,
 villefranche-sur-mer, france*. Marine Data Archive.
 <https://doi.org/10.14284/473>
 
