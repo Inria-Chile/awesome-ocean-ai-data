@@ -94,10 +94,7 @@ interrogate and download parts of the datasets that are both validated
 and under CC-BY license (which is the case for the Tara Ocean).
 
 Datasets mentioned [here](https://github.com/ecotaxa/ecotaxa/issues/426)
-are all under such license. References of data are \[Sorbonne
-Université/CNRS-Institut De La Mer De Villefranche (IMEV) & Sorbonne
-Université/CNRS-Laboratoire D’Océanographie De Villefranche (LOV)
-([2020](#ref-10-14284-473));10-14284-479;10-14284-480;10-14284-481;10-14284-477;10-14284-478\].
+are all under that license.
 
   - [Python client for the Ecotaxa’s
     API](https://github.com/ecotaxa/pyecotaxa)
@@ -145,6 +142,31 @@ Once the job finished files are available on FTP (c.f.
 <https://sites.google.com/view/piqv/ecotaxa> for info on how to connect
 on this one.)
 
+#### References for datasets
+
+  - (Sorbonne Université/CNRS-Institut De La Mer De Villefranche (IMEV)
+    & Sorbonne Université/CNRS-Laboratoire D’Océanographie De
+    Villefranche (LOV), [2020](#ref-10-14284-473))
+  - (Sorbonne Université/CNRS, Institut De La Mer De
+    Villefranche-Sorbonne Université, France & Sorbonne Université/CNRS,
+    Laboratoire D’Océanographie De Villefranche-Sorbonne Université,
+    France, [2020](#ref-10-14284-479)[d](#ref-10-14284-479))
+  - (Sorbonne Université/CNRS, Institut De La Mer De
+    Villefranche-Sorbonne Université, France & Sorbonne Université/CNRS,
+    Laboratoire D’Océanographie De Villefranche-Sorbonne Université,
+    France, [2020](#ref-10-14284-480)[a](#ref-10-14284-480))
+  - (Sorbonne Université/CNRS, Institut De La Mer De
+    Villefranche-Sorbonne Université, France et al.,
+    [2020](#ref-10-14284-481))
+  - (Sorbonne Université/CNRS, Institut De La Mer De
+    Villefranche-Sorbonne Université, France & Sorbonne Université/CNRS,
+    Laboratoire D’Océanographie De Villefranche-Sorbonne Université,
+    France, [2020](#ref-10-14284-477)[c](#ref-10-14284-477))
+  - (Sorbonne Université/CNRS, Institut De La Mer De
+    Villefranche-Sorbonne Université, France & Sorbonne Université/CNRS,
+    Laboratoire D’Océanographie De Villefranche-Sorbonne Université,
+    France, [2020](#ref-10-14284-478)[b](#ref-10-14284-478))
+
 ### WHOI-Plankton: 3.5 million human annotated plankton images
 
 Annotated Plankton Images - Data Set for Developing and Evaluating
@@ -169,9 +191,20 @@ Dashboard](http://ifcb-data.whoi.edu/mvco).
 
 ## Satellite imaging datasets
 
-### google earth, data observatory, sentinel, copernicus, etc.}
+### Google Earth Engine
 
-## Datasets organized by papers using them
+[Google Earth Engine](https://earthengine.google.com) combines a
+multi-petabyte catalog of satellite imagery and geospatial datasets with
+planetary-scale analysis capabilities. Scientists, researchers, and
+developers use Earth Engine to detect changes, map trends, and quantify
+differences on the Earth’s surface. Earth Engine is now available for
+commercial use, and remains free for academic and research use.
+
+  - Available datasets:
+    <https://developers.google.com/earth-engine/datasets/>.
+  - Case studies: <https://earthengine.google.com/case_studies/>.
+
+## Datasets organized by papers that them
 
   - (Lima-Mendez et al., [2015](#ref-Lima-Mendez2015-cr)):
       - De Vargas et al.
@@ -256,6 +289,59 @@ instrument to analyze nano-and microplankton: Imaging FlowCytobot.
 
 Picheral, M., Colin, S., & J.-O., I. (2017). *EcoTaxa, a tool for the
 taxonomic classification of images*. <http://ecotaxa.obs-vlfr.fr>
+
+</div>
+
+<div id="ref-10-14284-480">
+
+Sorbonne Université/CNRS, Institut De La Mer De Villefranche-Sorbonne
+Université, France, & Sorbonne Université/CNRS, Laboratoire
+D’Océanographie De Villefranche-Sorbonne Université, France. (2020a).
+*Plankton community in bongo net, moose-ge cruises, north-western
+mediterranean sea*. Marine Data Archive. <https://doi.org/10-14284-480>
+
+</div>
+
+<div id="ref-10-14284-478">
+
+Sorbonne Université/CNRS, Institut De La Mer De Villefranche-Sorbonne
+Université, France, & Sorbonne Université/CNRS, Laboratoire
+D’Océanographie De Villefranche-Sorbonne Université, France. (2020b).
+*Plankton community in juday-bogorov (330µm) net, point b,
+villefranche-sur-mer, france*. Marine Data Archive.
+<https://doi.org/10-14284-478>
+
+</div>
+
+<div id="ref-10-14284-477">
+
+Sorbonne Université/CNRS, Institut De La Mer De Villefranche-Sorbonne
+Université, France, & Sorbonne Université/CNRS, Laboratoire
+D’Océanographie De Villefranche-Sorbonne Université, France. (2020c).
+*Plankton community in régent (680µm) net, point b,
+villefranche-sur-mer, france*. Marine Data Archive.
+<https://doi.org/10-14284-477>
+
+</div>
+
+<div id="ref-10-14284-479">
+
+Sorbonne Université/CNRS, Institut De La Mer De Villefranche-Sorbonne
+Université, France, & Sorbonne Université/CNRS, Laboratoire
+D’Océanographie De Villefranche-Sorbonne Université, France. (2020d).
+*Plankton community in wp2 net (200µm), dyfamed point, ligurian sea,
+france*. Marine Data Archive. <https://doi.org/10.14284/479>
+
+</div>
+
+<div id="ref-10-14284-481">
+
+Sorbonne Université/CNRS, Institut De La Mer De Villefranche-Sorbonne
+Université, France, Sorbonne Université/CNRS, Laboratoire
+D’Océanographie De Villefranche-Sorbonne Université, France, & Office
+Français De La Biodiversité (OFB). (2020). *Plankton community in wp2
+net (200µm), pnmir cruises, parc naturel marin d’Iroise, france*. Marine
+Data Archive. <https://doi.org/10-14284-481>
 
 </div>
 
