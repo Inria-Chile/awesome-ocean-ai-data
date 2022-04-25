@@ -58,14 +58,14 @@ From your Python code or notebook import the `oceania` module and use method `ge
 
 Credit: part of this information was provided by Fabien.
 
-[Ecotaxa](https://ecotaxa.obs-vlfr.fr) @ecotaxa that images contains
+[Ecotaxa](https://ecotaxa.obs-vlfr.fr) [@ecotaxa] that images contains
 over 188 million "objects" captured by different microscopes. Part of
 the dataset has been manually annotated. They also have an ML-based
 image classifier.
 
 Ecotaxa data is available via an [API](https://ecotaxa.obs-vlfr.fr/api/docs) allowing to programatically interrogate and download parts of the datasets that are both validated and under CC-BY license (which is the case for the Tara Ocean).
 
-Datasets mentioned [here](https://github.com/ecotaxa/ecotaxa/issues/426) are all under such license @10.14284/473;10.14284/479;10.14284/480;10.14284/481;10.14284/477;10.14284/478.
+Datasets mentioned [here](https://github.com/ecotaxa/ecotaxa/issues/426) are all under such license [@10.14284/473;10.14284/479;10.14284/480;10.14284/481;10.14284/477;10.14284/478].
 
 - [Python client for the Ecotaxa's API](https://github.com/ecotaxa/pyecotaxa)
 - Another Python API (?) <https://github.com/ecotaxa/ecotaxa_py_client>
