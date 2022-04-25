@@ -83,7 +83,7 @@ for instance:
 
 ### Ecotaxa
 
-Credit: information was provided by
+Credit: part of this information was provided by
 [Fabien Lombard](https://lov.imev-mer.fr/web/member/fabien-lombard/).
 
 [Ecotaxa](https://ecotaxa.obs-vlfr.fr) (Picheral et al.,
