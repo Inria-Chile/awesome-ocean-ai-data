@@ -1,25 +1,25 @@
 # name: Generate references
 
-name: Generate README with references and pdf version of markdown source
+name: Generate README with references
 
 on: [push]
 
 jobs:
   convert_via_pandoc:
-    name: Converting via Pandoc
+    name: Converting source via pandoc
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate new README.md
+      - name: Generate README.md
         uses: maxheld83/pandoc@v2
         with:
           args: "--output=README.md -t gfm --toc --bibliography source/references.bib --csl source/apa.csl source/source.md"
 
-      - name: Generate new pdf version
-        uses: maxheld83/pandoc@v2
-        with:
-          args: "--output=output/oceania-data-guide.pdf --bibliography source/references.bib --csl source/apa.csl source/source.md"
+      # - name: Generate new pdf version
+      #   uses: maxheld83/pandoc@v2
+      #   with:
+      #     args: "--output=output/oceania-data-guide.pdf --bibliography source/references.bib --csl source/apa.csl source/source.md"
 
       - name: Commit files
         run: |
