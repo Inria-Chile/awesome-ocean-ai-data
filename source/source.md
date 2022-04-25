@@ -21,12 +21,66 @@ We welcome contributions to this guide. Please read a [`CONTRIBUTING.md`](https:
 
 ## Genomic sequence datasets
 
+### `oceania-fasta-query`
+
+An online service to extract biologic subsequences of interest from large FASTA files. It currently supports the [Ocean Microbial Reference Gene Catalog v2 (OM-RGC.v2)](https://www.ebi.ac.uk/biostudies/studies/S-BSST297) gene catalog from [Tara Oceans Expedition](https://fondationtaraocean.org). If you would like to try the service on files from other catalogs please the Inria Chile engineering team at <desarrollo@inria.cl>.
+
+`oceania-fasta-query` consists of:
+
+- an online service currently provided by Inria Chile, and
+- a Python client that queries on the online services and allows you to work locally on the results through a Python script or a Jupyter notebook.
+
+#### Installing `oceania-fasta-query`
+
+To use `oceania-query-fasta` you just need to install the Python client, for example, by running
+
+```zsh pip install oceania-query-fasta
+```
+
+#### Using `oceania-fasta-query`
+
+From your Python code or notebook import the `oceania` module and use method `get_sequences_from_fasta()` to run a query on the server. For example,
+
+```python
+TARA_SAMPLE_ID = "TARA_A100000171"
+
+# REQUEST_PARAMS is a list of tuples that identify subsequences to extract
+# each tuple must have the values (sequence_id, start_index, stop_index, sequence_type)
+# sequence type accepted values are [raw, complement, reverse_complement], optional value if ommited defaults to "raw".
+REQUEST_PARAMS = [
+            ("TARA_A100000171_G_scaffold48_1", 10, 50, "complement"),
+            ("TARA_A100000171_G_scaffold48_1", 10, 50),
+            ("TARA_A100000171_G_scaffold48_1", 10, 50, "reverse_complement"),
+            ("TARA_A100000171_G_scaffold181_1", 0, 50),
+            ("TARA_A100000171_G_scaffold181_1", 100, 200),
+            ("TARA_A100000171_G_scaffold181_1", 200, 230),
+            ("TARA_A100000171_G_scaffold493_2", 54, 76),
+            ("TARA_A100000171_G_scaffold50396_2", 87, 105),
+            ("TARA_A100000171_G_C2001995_1", 20, 635),
+            ("TARA_A100000171_G_C2026460_1", 0, 100),
+        ]
+rom oceania import get_sequences_from_fasta
+
+# Run query on server
+request_result = get_sequences_from_fasta(
+    TARA_SAMPLE_ID,
+    REQUEST_PARAMS
+)
+
+# get_sequences_from_fasta() returns a pandas dataFrame with the extracted sequences
+print(request_result)
+```
+
+Additional examples are available as Jupyter notebooks in the GitHub repo [`oceania-query-demo`](https://github.com/Inria-Chile/oceania-query-demo), for instance:
+- [A minimal example that extracts a set of sequences from a given file in the catalog.](https://github.com/Inria-Chile/oceania-query-demo/blob/master/notebooks/query_tara_simple.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Inria-Chile/oceania-query-demo/blob/main/notebooks/query_tara_intergenic_region.ipynb)
+- [A more complex self-contained example that extracts unidentified sequences (intergenic) from files in the catalogue.](https://github.com/Inria-Chile/oceania-query-demo/blob/main/notebooks/query_tara_intergenic_region.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Inria-Chile/oceania-query-demo/blob/main/notebooks/query_tara_intergenic_region.ipynb)
+
 ## Plankton images datasets
 
 ### Ecotaxa
 
 [Ecotaxa](https://ecotaxa.obs-vlfr.fr) @ecotaxa that images contains
-over 188 million "objects" caputured by different microscopes. Part of
+over 188 million "objects" captured by different microscopes. Part of
 the dataset has been manually annotated. They also have an ML-based
 image classifier.
 
@@ -44,7 +98,8 @@ The images are part of a much larger data set (>700 million images) collected in
 
 ### google earth, data observatory, sentinel, copernicus, etc.}
 
-## Papers datasets
+## Datasets organized by papers using them
 
-[@Lima-Mendez2015-cr] sdfasdfasdf
-
+- [@Lima-Mendez2015-cr]:
+  - @devargas-2015--w4: Total V9 rDNA information organized at the metabarcode level (Database W4) <https://doi.pangaea.de/10.1594/PANGAEA.843018>
+  - @devargas-2015--w5: Total V9 rDNA information organized at the OTU level (Database W5) <https://doi.pangaea.de/10.1594/PANGAEA.843022>
