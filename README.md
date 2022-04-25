@@ -18,11 +18,13 @@ Intelligence (IJCAI-ECAI-2022)**](https://ijcai-22.org) on July 23-29,
 2022, in [Messe Wien](https://www.messecongress.at/), Vienna, Austria.
 
 The collection goes by listing sources for genomic, microscopic imaging
-and satelite data. We also list other datasets relevant to particular
+and satellite data. We also list other datasets relevant to particular
 papers.
 
-It falls under the activities of [Inria Project
+This compilation falls under the activities of [Inria Project
 OcéanIA](https://oceania.inria.cl).
+
+**Note:** This document will be frequently updated. Stay tuned\!
 
 ## Contributing
 
@@ -44,7 +46,7 @@ the Inria Chile engineering team at <desarrollo@inria.cl>.
 
 `oceania-fasta-query` consists of:
 
-  - an online service currently provided by Inria Chile, and
+  - An online service currently provided by Inria Chile, and
   - a Python client that queries on the online services and allows you
     to work locally on the results through a Python script or a Jupyter
     notebook.
@@ -81,7 +83,8 @@ for instance:
 
 ### Ecotaxa
 
-Credit: part of this information was provided by Fabien.
+Credit: part of this information was provided by
+[Fabien Lombard](https://lov.imev-mer.fr/web/member/fabien-lombard/).
 
 [Ecotaxa](https://ecotaxa.obs-vlfr.fr) (Picheral et al.,
 [2017](#ref-ecotaxa)) that images contains over 188 million “objects”
@@ -203,6 +206,19 @@ commercial use, and remains free for academic and research use.
   - Available datasets:
     <https://developers.google.com/earth-engine/datasets/>.
   - Case studies: <https://earthengine.google.com/case_studies/>.
+
+### Open Data on AWS
+
+The Registry of Open Data on AWS makes it easy to find datasets made
+publicly available through AWS services. Browse available data and learn
+how to register your own datasets.
+
+  - Datasets available are listed here: <https://registry.opendata.aws>.
+  - A (probably incomplete) list of datasets of interest:
+      - [Sentinel-2](https://registry.opendata.aws/sentinel-2/)
+      - [NOAA Geostationary Operational Environmental Satellites
+        (GOES) 16 & 17](https://registry.opendata.aws/noaa-goes/)
+      - [SpaceNet](https://registry.opendata.aws/spacenet/)
 
 ## Datasets organized by papers that them
 
