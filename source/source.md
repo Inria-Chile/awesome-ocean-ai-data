@@ -59,19 +59,16 @@ From your Python code or notebook import the `oceania` module and use method `ge
 
 Credit: part of this information was provided by [Fabien Lombard](https://lov.imev-mer.fr/web/member/fabien-lombard/).
 
-[Ecotaxa](https://ecotaxa.obs-vlfr.fr) [@ecotaxa] that images contains
-over 188 million "objects" captured by different microscopes. Part of
-the dataset has been manually annotated. They also have an ML-based
-image classifier.
+[Ecotaxa](https://ecotaxa.obs-vlfr.fr) [@ecotaxa] that images contains over 188 million "objects" captured by different microscopes. Part of the dataset has been manually annotated. They also have an ML-based image classifier.
 
-Ecotaxa data is available via an [API](https://ecotaxa.obs-vlfr.fr/api/docs) allowing to programatically interrogate and download parts of the datasets that are both validated and under CC-BY license (which is the case for the Tara Ocean).
+Ecotaxa data is available via an [API](https://ecotaxa.obs-vlfr.fr/api/docs) allowing to programatically query and download parts of the datasets that are both validated and under CC-BY license (which is the case for the Tara Ocean).
 
 Datasets mentioned [here](https://github.com/ecotaxa/ecotaxa/issues/426) are all under that license.
 
-- [Python client for the Ecotaxa's API](https://github.com/ecotaxa/pyecotaxa)
-- Another Python API (?) <https://github.com/ecotaxa/ecotaxa_py_client>
-- [R client for Ecotaxa's API](https://github.com/ecotaxa/ecotaxar)
-- Other Ecotaxa-related repositories: https://github.com/ecotaxa
+- [Python client for the Ecotaxa's API](https://github.com/ecotaxa/pyecotaxa).
+- Another Python API (?) <https://github.com/ecotaxa/ecotaxa_py_client>.
+- [R client for Ecotaxa's API](https://github.com/ecotaxa/ecotaxar).
+- Other Ecotaxa-related repositories: <https://github.com/ecotaxa>.
 
 #### Example in R
 
