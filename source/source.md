@@ -65,7 +65,7 @@ image classifier.
 
 Ecotaxa data is available via an [API](https://ecotaxa.obs-vlfr.fr/api/docs) allowing to programatically interrogate and download parts of the datasets that are both validated and under CC-BY license (which is the case for the Tara Ocean).
 
-Datasets mentioned [here](https://github.com/ecotaxa/ecotaxa/issues/426) are all under such license. References of data are [@10-14284-473;10-14284-479;10-14284-480;10-14284-481;10-14284-477;10-14284-478].
+Datasets mentioned [here](https://github.com/ecotaxa/ecotaxa/issues/426) are all under that license.
 
 - [Python client for the Ecotaxa's API](https://github.com/ecotaxa/pyecotaxa)
 - Another Python API (?) <https://github.com/ecotaxa/ecotaxa_py_client>
@@ -109,6 +109,15 @@ ecotaxar:::apiGET(paste0("jobs/", rsp$job_id, "/"))
 
 Once the job finished files are available on FTP (c.f. <https://sites.google.com/view/piqv/ecotaxa> for info on how to connect on this one.)
 
+#### References for datasets
+
+- [@10-14284-473]
+- [@10-14284-479]
+- [@10-14284-480]
+- [@10-14284-481]
+- [@10-14284-477]
+- [@10-14284-478]
+
 ### WHOI-Plankton: 3.5 million human annotated plankton images
 
 Annotated Plankton Images - Data Set for Developing and Evaluating Classification Methods
@@ -121,9 +130,14 @@ The images are part of a much larger data set (>700 million images) collected in
 
 ## Satellite imaging datasets
 
-### google earth, data observatory, sentinel, copernicus, etc.}
+### Google Earth Engine
 
-## Datasets organized by papers using them
+[Google Earth Engine](https://earthengine.google.com) combines a multi-petabyte catalog of satellite imagery and geospatial datasets with planetary-scale analysis capabilities. Scientists, researchers, and developers use Earth Engine to detect changes, map trends, and quantify differences on the Earth's surface. Earth Engine is now available for commercial use, and remains free for academic and research use.
+
+- Available datasets: <https://developers.google.com/earth-engine/datasets/>.
+- Case studies: <https://earthengine.google.com/case_studies/>.
+
+## Datasets organized by papers that them
 
 - [@Lima-Mendez2015-cr]:
   - @devargas-2015-w4: Total V9 rDNA information organized at the metabarcode level (Database W4) <https://doi.pangaea.de/10.1594/PANGAEA.843018>
