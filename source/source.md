@@ -126,6 +126,17 @@ The annotated image set can be downloaded at the following citable URI: <http://
 
 The images are part of a much larger data set (>700 million images) collected in situ by automated submersible imaging-in-flow cytometry with an instrument called Imaging FlowCytobot (IFCB) [@Olson2007;@Sosik2007] at the Martha's Vineyard Coastal Observatory (MVCO) starting in 2006 and continuing to the present. Near real time image data and the complete archive are accessible for browse and download at the [IFCB Data Dashboard](http://ifcb-data.whoi.edu/mvco).
 
+## Occurrence datasets
+
+### [Ocean Biodiversity Information System (OBIS)](https://obis.org)
+
+OBIS is a global open-access data and information clearing-house on marine biodiversity for science, conservation and sustainable development. OBIS harvests occurrence records from thousands of datasets and makes them available as a single integrated dataset. There are several ways to access OBIS data:
+
+- The [mapper](https://mapper.obis.org/) allows users to visualize and inspect subsets of OBIS data. A variety of filters (taxonomic, geographic, time, data quality) is available and multiple layers can be combined in a single view. Layers can be downloaded as CSV files.
+- [OBIS R package](https://obis.org/manual/accessr) provides direct access to the OBIS database from R.
+- Both the mapper and the R package are based on the [OBIS API](https://api.obis.org/) which can be used by third party developers as well.
+- Full exports of the quality controlled presence records as `csv` or `parquet` [here](https://obis.org/data/access/).
+
 ## Satellite imaging datasets
 
 ### Google Earth Engine
