@@ -1,4 +1,7 @@
-# Open Ocean Data Collection for AI and ML bubu [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Inria-Chile/awesome)[![License: CeCILLv2.1](https://img.shields.io/badge/license-CeCILL--v2.1-orange)](https://cecill.info/licences.en.html)
+# Open Ocean Data Collection for AI and ML
+
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Inria-Chile/awesome)[![License:
+CeCILLv2.1](https://img.shields.io/badge/license-CeCILL--v2.1-orange)](https://cecill.info/licences.en.html)
 
 ## *An Open Ocean Data Collection for AI and ML*
 
