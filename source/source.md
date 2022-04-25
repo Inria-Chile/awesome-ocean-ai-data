@@ -65,7 +65,7 @@ image classifier.
 
 Ecotaxa data is available via an [API](https://ecotaxa.obs-vlfr.fr/api/docs) allowing to programatically interrogate and download parts of the datasets that are both validated and under CC-BY license (which is the case for the Tara Ocean).
 
-Datasets mentioned [here](https://github.com/ecotaxa/ecotaxa/issues/426) are all under such license [@10.14284/473;10.14284/479;10.14284/480;10.14284/481;10.14284/477;10.14284/478].
+Datasets mentioned [here](https://github.com/ecotaxa/ecotaxa/issues/426) are all under such license. References of data are [@10-14284-473;10-14284-479;10-14284-480;10-14284-481;10-14284-477;10-14284-478].
 
 - [Python client for the Ecotaxa's API](https://github.com/ecotaxa/pyecotaxa)
 - Another Python API (?) <https://github.com/ecotaxa/ecotaxa_py_client>
@@ -126,5 +126,5 @@ The images are part of a much larger data set (>700 million images) collected in
 ## Datasets organized by papers using them
 
 - [@Lima-Mendez2015-cr]:
-  - @devargas-2015--w4: Total V9 rDNA information organized at the metabarcode level (Database W4) <https://doi.pangaea.de/10.1594/PANGAEA.843018>
-  - @devargas-2015--w5: Total V9 rDNA information organized at the OTU level (Database W5) <https://doi.pangaea.de/10.1594/PANGAEA.843022>
+  - @devargas-2015-w4: Total V9 rDNA information organized at the metabarcode level (Database W4) <https://doi.pangaea.de/10.1594/PANGAEA.843018>
+  - @devargas-2015-w5: Total V9 rDNA information organized at the OTU level (Database W5) <https://doi.pangaea.de/10.1594/PANGAEA.843022>
