@@ -13,10 +13,6 @@ author: Inria Challenge OcéanIA Project
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/Inria-Chile/awesome-ocean-ai-data)[![License: CeCILLv2.1](https://img.shields.io/badge/license-CeCILL--v2.1-orange)](https://cecill.info/licences.en.html)
 
-## Credits
-
-[![](https://opencollective.com/html-react-parser/contributors.svg?width=890&button=false)](https://github.com/Inria-Chile/awesome-ocean-ai-data/graphs/contributors)
-
 ## About
 
 This is a dataset collection the Challenge [**AI methods for determining ocean ecosystems from space: Combining genomic information, microscopic and satellite imagery**](https://oceania.inria.cl/#ai-ocean-challenge-2022) to be held in conjunction with the [**31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence (IJCAI-ECAI-2022)**](https://ijcai-22.org) on July 23-29, 2022, in [Messe Wien](https://www.messecongress.at/), Vienna, Austria.
