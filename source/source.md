@@ -29,7 +29,7 @@ We welcome contributions to this guide. Please read a [`CONTRIBUTING.md`](https:
 
 ## Genomic sequence datasets
 ### `Ocean Microbial Reference Gene Catalog v2 (OM-RGC v2)`
--It is highly recommended to view the [metadata](https://zenodo.org/record/3539258) (excel format) that is associated with the Ocean Microbial Reference Gene Catalog v2 as this will give you an overview of the data available. 
+- It is highly recommended to view the [metadata](https://zenodo.org/record/3539258) (excel format) that is associated with the Ocean Microbial Reference Gene Catalog v2 as this will give you an overview of the data available. 
 - You can directly access to [OM-RGC v2 dabase](https://www.ebi.ac.uk/biostudies/studies/S-BSST297) or via `oceania-fasta-query`.
 
 
@@ -58,7 +58,7 @@ From your Python code or notebook import the `oceania` module and use method `ge
 - [A more complex self-contained example that extracts unidentified sequences (intergenic) from files in the catalogue.](https://github.com/Inria-Chile/oceania-query-demo/blob/main/notebooks/query_tara_intergenic_region.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Inria-Chile/oceania-query-demo/blob/main/notebooks/query_tara_intergenic_region.ipynb)
 
 
-- Tara Oceans database, including Metagenome-assembled genomes, metatranscriptomes and single-cell genomes can be download directly from [here](https://www.genoscope.cns.fr/tara/)
+Furthermore, omics data (including metagenome-assembled genomes, metatranscriptomes, genes, proteins and functional annotations) from plankton communities and some single-cell assays can be download directly from [here](https://www.genoscope.cns.fr/tara/)
 
 ## Plankton images datasets
 
