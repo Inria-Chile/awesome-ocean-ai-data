@@ -58,7 +58,7 @@ From your Python code or notebook import the `oceania` module and use method `ge
 - [A more complex self-contained example that extracts unidentified sequences (intergenic) from files in the catalogue.](https://github.com/Inria-Chile/oceania-query-demo/blob/main/notebooks/query_tara_intergenic_region.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Inria-Chile/oceania-query-demo/blob/main/notebooks/query_tara_intergenic_region.ipynb)
 
 
-Tara Oceans data, including Metagenome-assembled genomes, metatranscriptomes and some single-cell genomes can be download directly from [here](https://www.genoscope.cns.fr/tara/)
+- Tara Oceans database, including Metagenome-assembled genomes, metatranscriptomes and single-cell genomes can be download directly from [here](https://www.genoscope.cns.fr/tara/)
 
 ## Plankton images datasets
 

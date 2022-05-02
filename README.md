@@ -33,6 +33,9 @@ We welcome contributions to this guide. Please read a
 on how to proceed.
 
 ## Genomic sequence datasets
+### `Ocean Microbial Reference Gene Catalog v2 (OM-RGC v2)`
+-It is highly recommended to view the [metadata](https://zenodo.org/record/3539258) (excel format) that is associated with the Ocean Microbial Reference Gene Catalog v2 as this will give you an overview of the data available. 
+- You can directly access to [OM-RGC v2 dabase](https://www.ebi.ac.uk/biostudies/studies/S-BSST297) or via `oceania-fasta-query`.
 
 ### `oceania-fasta-query`
 
@@ -78,6 +81,8 @@ for instance:
     catalogue.](https://github.com/Inria-Chile/oceania-query-demo/blob/main/notebooks/query_tara_intergenic_region.ipynb)
     [![Open In
     Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Inria-Chile/oceania-query-demo/blob/main/notebooks/query_tara_intergenic_region.ipynb)
+  - Tara Oceans database, including Metagenome-assembled genomes, metatranscriptomes and single-cell genomes can be download directly from [here](https://www.genoscope.cns.fr/tara/)
+
 
 ## Plankton images datasets
 
@@ -99,51 +104,9 @@ under CC-BY license (which is the case for the Tara Ocean).
 Datasets mentioned [here](https://github.com/ecotaxa/ecotaxa/issues/426)
 are all under that license.
 
-  - [Python client for the Ecotaxa’s
-    API](https://github.com/ecotaxa/pyecotaxa).
-  - Another Python API (?)
-    <https://github.com/ecotaxa/ecotaxa_py_client>.
-  - [R client for Ecotaxa’s API](https://github.com/ecotaxa/ecotaxar).
-  - Other Ecotaxa-related repositories: <https://github.com/ecotaxa>.
+- [Python client for the Ecotaxa's API](https://github.com/ecotaxa/ecotaxa_py_client).
+- Other Ecotaxa-related repositories: <https://github.com/ecotaxa>.
 
-#### Example in R
-
-``` r
-library("httr")
-# remotes::install_github("jiho/ecotaxar")
-library("ecotaxar")
-
-# to log on ecotaxa using API (normally not needed for CCBY projects)
-api_login(username="ton_email", password="ton_mot_de_passe")
-
-# launching an export TSV on prohect number185 (to adapt) to the FTP (direct export could also be possible) to loop on project for several
-rsp <- ecotaxar:::apiPOST("object_set/export", body=list(
-  filters=list(statusfilter="V"),
-  request=list(
-    project_id = 185,
-    exp_type = "TSV",
-    use_latin1 = FALSE,
-    tsv_entities = "OPAS",
-    split_by = "",
-    coma_as_separator = FALSE,
-    format_dates_times = TRUE,
-    with_images = FALSE,
-    with_internal_ids = FALSE,
-    only_first_image = TRUE,
-    sum_subtotal = "S",
-    out_to_ftp = TRUE
-  )
-))
-
-# (optional) rloock the result of the export :
-# $progress_pct (progression du job)
-# $result$out_file (name of the resulting file)
-ecotaxar:::apiGET(paste0("jobs/", rsp$job_id, "/"))
-```
-
-Once the job finished files are available on FTP (c.f.
-<https://sites.google.com/view/piqv/ecotaxa> for info on how to connect
-on this one.)
 
 #### References for datasets
 
