@@ -28,6 +28,10 @@ This compilation falls under the activities of [Inria Project OcéanIA](https://
 We welcome contributions to this guide. Please read a [`CONTRIBUTING.md`](https://github.com/Inria-Chile/awesome-ocean-ai-data/blob/main/CONTRIBUTING.md) on how to proceed.
 
 ## Genomic sequence datasets
+### `Ocean Microbial Reference Gene Catalog v2 (OM-RGC v2)`
+- It is highly recommended to view the [metadata](https://zenodo.org/record/3539258) (excel format) that is associated with the Ocean Microbial Reference Gene Catalog v2 as this will give you an overview of the data available. 
+- You can directly access to [OM-RGC v2 dabase](https://www.ebi.ac.uk/biostudies/studies/S-BSST297) or via `oceania-fasta-query`.
+
 
 ### `oceania-fasta-query`
 
@@ -53,59 +57,26 @@ From your Python code or notebook import the `oceania` module and use method `ge
 - [A minimal example that extracts a set of sequences from a given file in the catalog.](https://github.com/Inria-Chile/oceania-query-demo/blob/master/notebooks/query_tara_simple.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Inria-Chile/oceania-query-demo/blob/main/notebooks/query_tara_intergenic_region.ipynb)
 - [A more complex self-contained example that extracts unidentified sequences (intergenic) from files in the catalogue.](https://github.com/Inria-Chile/oceania-query-demo/blob/main/notebooks/query_tara_intergenic_region.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Inria-Chile/oceania-query-demo/blob/main/notebooks/query_tara_intergenic_region.ipynb)
 
+
+Furthermore, omics data (including metagenome-assembled genomes, metatranscriptomes, genes, proteins and functional annotations) from plankton communities and some single-cell assays can be download directly from [here](https://www.genoscope.cns.fr/tara/)
+
 ## Plankton images datasets
 
 ### Ecotaxa
 
 Credit: part of this information was provided by [Fabien Lombard](https://lov.imev-mer.fr/web/member/fabien-lombard/).
 
-[Ecotaxa](https://ecotaxa.obs-vlfr.fr) [@ecotaxa] that images contains over 188 million "objects" captured by different microscopes. Part of the dataset has been manually annotated. They also have an ML-based image classifier.
+[Ecotaxa](https://ecotaxa.obs-vlfr.fr) [@ecotaxa] contains over 188 million "objects" captured by different microscopes. Part of the dataset has been manually annotated. They also have an ML-based image classifier.
 
-Ecotaxa data is available via an [API](https://ecotaxa.obs-vlfr.fr/api/docs) allowing to programatically query and download parts of the datasets that are both validated and under CC-BY license (which is the case for the Tara Ocean).
+Ecotaxa data is available via an [API](https://ecotaxa.obs-vlfr.fr/api/docs) allowing to programmatically query and download parts of the datasets that are both validated and under CC-BY license (which is the case for the Tara Ocean).
 
 Datasets mentioned [here](https://github.com/ecotaxa/ecotaxa/issues/426) are all under that license.
 
-- [Python client for the Ecotaxa's API](https://github.com/ecotaxa/pyecotaxa).
-- Another Python API (?) <https://github.com/ecotaxa/ecotaxa_py_client>.
-- [R client for Ecotaxa's API](https://github.com/ecotaxa/ecotaxar).
+
+- [Python client for the Ecotaxa's API](https://github.com/ecotaxa/ecotaxa_py_client).
 - Other Ecotaxa-related repositories: <https://github.com/ecotaxa>.
 
-#### Example in R
 
-```r
-library("httr")
-# remotes::install_github("jiho/ecotaxar")
-library("ecotaxar")
-
-# to log on ecotaxa using API (normally not needed for CCBY projects)
-api_login(username="ton_email", password="ton_mot_de_passe")
-
-# launching an export TSV on prohect number185 (to adapt) to the FTP (direct export could also be possible) to loop on project for several
-rsp <- ecotaxar:::apiPOST("object_set/export", body=list(
-  filters=list(statusfilter="V"),
-  request=list(
-    project_id = 185,
-    exp_type = "TSV",
-    use_latin1 = FALSE,
-    tsv_entities = "OPAS",
-    split_by = "",
-    coma_as_separator = FALSE,
-    format_dates_times = TRUE,
-    with_images = FALSE,
-    with_internal_ids = FALSE,
-    only_first_image = TRUE,
-    sum_subtotal = "S",
-    out_to_ftp = TRUE
-  )
-))
-
-# (optional) rloock the result of the export :
-# $progress_pct (progression du job)
-# $result$out_file (name of the resulting file)
-ecotaxar:::apiGET(paste0("jobs/", rsp$job_id, "/"))
-```
-
-Once the job finished files are available on FTP (c.f. <https://sites.google.com/view/piqv/ecotaxa> for info on how to connect on this one.)
 
 #### References for datasets
 
@@ -152,12 +123,12 @@ The Registry of Open Data on AWS makes it easy to find datasets made publicly av
 
 - Datasets available are listed here: <https://registry.opendata.aws>.
 - A (probably incomplete) list of datasets of interest:
-  - [Sentinel-2](https://registry.opendata.aws/sentinel-2/)
-  - [NOAA Geostationary Operational Environmental Satellites (GOES) 16 & 17](https://registry.opendata.aws/noaa-goes/)
-  - [SpaceNet](https://registry.opendata.aws/spacenet/)
+  - [Sentinel-2](https://registry.opendata.aws/sentinel-2/)
+  - [NOAA Geostationary Operational Environmental Satellites (GOES) 16 & 17](https://registry.opendata.aws/noaa-goes/)
+  - [SpaceNet](https://registry.opendata.aws/spacenet/)
 
 ## Datasets organized by papers that them
 
 - [@Lima-Mendez2015-cr]:
-  - @devargas-2015-w4: Total V9 rDNA information organized at the metabarcode level (Database W4) <https://doi.pangaea.de/10.1594/PANGAEA.843018>
-  - @devargas-2015-w5: Total V9 rDNA information organized at the OTU level (Database W5) <https://doi.pangaea.de/10.1594/PANGAEA.843022>
+  - @devargas-2015-w4: Total V9 rDNA information organized at the metabarcode level (Database W4) <https://doi.pangaea.de/10.1594/PANGAEA.843018>
+  - @devargas-2015-w5: Total V9 rDNA information organized at the OTU level (Database W5) <https://doi.pangaea.de/10.1594/PANGAEA.843022>
