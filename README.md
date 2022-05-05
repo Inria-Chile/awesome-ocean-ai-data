@@ -33,9 +33,16 @@ We welcome contributions to this guide. Please read a
 on how to proceed.
 
 ## Genomic sequence datasets
+
 ### `Ocean Microbial Reference Gene Catalog v2 (OM-RGC v2)`
-- It is highly recommended to view the [metadata](https://zenodo.org/record/3539258) (excel format) that is associated with the Ocean Microbial Reference Gene Catalog v2 as this will give you an overview of the data available. 
-- You can directly access to [OM-RGC v2 dabase](https://www.ebi.ac.uk/biostudies/studies/S-BSST297) or via `oceania-fasta-query`.
+
+  - It is highly recommended to view the
+    [metadata](https://zenodo.org/record/3539258) (excel format) that is
+    associated with the Ocean Microbial Reference Gene Catalog v2 as
+    this will give you an overview of the data available.
+  - You can directly access to [OM-RGC v2
+    dabase](https://www.ebi.ac.uk/biostudies/studies/S-BSST297) or via
+    `oceania-fasta-query`.
 
 ### `oceania-fasta-query`
 
@@ -82,8 +89,10 @@ for instance:
     [![Open In
     Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Inria-Chile/oceania-query-demo/blob/main/notebooks/query_tara_intergenic_region.ipynb)
 
-Furthermore, omics data (including metagenome-assembled genomes, metatranscriptomes, genes, proteins and functional annotations) from plankton communities and some single-cell assays can be download directly from [here](https://www.genoscope.cns.fr/tara/)
-
+Furthermore, omics data (including metagenome-assembled genomes,
+metatranscriptomes, genes, proteins and functional annotations) from
+plankton communities and some single-cell assays can be download
+directly from [here](https://www.genoscope.cns.fr/tara/)
 
 ## Plankton images datasets
 
@@ -93,21 +102,21 @@ Credit: part of this information was provided by
 [Fabien Lombard](https://lov.imev-mer.fr/web/member/fabien-lombard/).
 
 [Ecotaxa](https://ecotaxa.obs-vlfr.fr) (Picheral et al.,
-[2017](#ref-ecotaxa)) that images contains over 188 million “objects”
-captured by different microscopes. Part of the dataset has been manually
-annotated. They also have an ML-based image classifier.
+[2017](#ref-ecotaxa)) contains over 188 million “objects” captured by
+different microscopes. Part of the dataset has been manually annotated.
+They also have an ML-based image classifier.
 
 Ecotaxa data is available via an
-[API](https://ecotaxa.obs-vlfr.fr/api/docs) allowing to programatically
+[API](https://ecotaxa.obs-vlfr.fr/api/docs) allowing to programmatically
 query and download parts of the datasets that are both validated and
 under CC-BY license (which is the case for the Tara Ocean).
 
 Datasets mentioned [here](https://github.com/ecotaxa/ecotaxa/issues/426)
 are all under that license.
 
-- [Python client for the Ecotaxa's API](https://github.com/ecotaxa/ecotaxa_py_client).
-- Other Ecotaxa-related repositories: <https://github.com/ecotaxa>.
-
+  - [Python client for the Ecotaxa’s
+    API](https://github.com/ecotaxa/ecotaxa_py_client).
+  - Other Ecotaxa-related repositories: <https://github.com/ecotaxa>.
 
 #### References for datasets
 
@@ -200,23 +209,22 @@ publicly available through AWS services. Browse available data and learn
 how to register your own datasets.
 
   - Datasets available are listed here: <https://registry.opendata.aws>.
-  - A (probably incomplete) list of datasets of interest:
-      - [Sentinel-2](https://registry.opendata.aws/sentinel-2/)
-      - [NOAA Geostationary Operational Environmental Satellites
-        (GOES) 16 & 17](https://registry.opendata.aws/noaa-goes/)
-      - [SpaceNet](https://registry.opendata.aws/spacenet/)
+  - A (probably incomplete) list of datasets of interest:   -
+    [Sentinel-2](https://registry.opendata.aws/sentinel-2/)   - [NOAA
+    Geostationary Operational Environmental Satellites (GOES) 16
+    & 17](https://registry.opendata.aws/noaa-goes/)   -
+    [SpaceNet](https://registry.opendata.aws/spacenet/)
 
 ## Datasets organized by papers that them
 
-  - (Lima-Mendez et al., [2015](#ref-Lima-Mendez2015-cr)):
-      - De Vargas et al.
-        ([2015](#ref-devargas-2015-w4)[a](#ref-devargas-2015-w4)): Total
-        V9 rDNA information organized at the metabarcode level (Database
-        W4) <https://doi.pangaea.de/10.1594/PANGAEA.843018>
-      - De Vargas et al.
-        ([2015](#ref-devargas-2015-w5)[b](#ref-devargas-2015-w5)): Total
-        V9 rDNA information organized at the OTU level (Database W5)
-        <https://doi.pangaea.de/10.1594/PANGAEA.843022>
+  - (Lima-Mendez et al., [2015](#ref-Lima-Mendez2015-cr)):   - De Vargas
+    et al. ([2015](#ref-devargas-2015-w4)[a](#ref-devargas-2015-w4)):
+    Total V9 rDNA information organized at the metabarcode level
+    (Database W4) <https://doi.pangaea.de/10.1594/PANGAEA.843018>   - De
+    Vargas et al.
+    ([2015](#ref-devargas-2015-w5)[b](#ref-devargas-2015-w5)): Total V9
+    rDNA information organized at the OTU level (Database W5)
+    <https://doi.pangaea.de/10.1594/PANGAEA.843022>
 
 # References
 
