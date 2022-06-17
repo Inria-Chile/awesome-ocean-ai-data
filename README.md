@@ -215,7 +215,26 @@ how to register your own datasets.
     & 17](https://registry.opendata.aws/noaa-goes/)   -
     [SpaceNet](https://registry.opendata.aws/spacenet/)
 
-## Datasets organized by papers that them
+## Environmental features and human impacts on Ecosystem 
+
+- Chlorophyll-a concentration (chl-a), acting as a proxy of primary producers’ biomass, can be obtained from the [Global Colour Project](http://www.globcolour.info). 
+
+- Sea Surface Temperature (SST) can be obtained from the [NOAA Earth System Research Laboratory](http://www.esrl.noaa.gov/psd/). 
+
+- Sea bottom temperature was also obtained from the [World Ocean Atlas 2013](https://www.ncei.noaa.gov/products/world-ocean-atlas). 
+
+- To represent potential human impacts on  ecosystem, available estimates of fishing bottom trawling impact (Trawl) and a cumulative impact index of several other human activities (i.e., the total anthropogenic index, TAI) can be obtained from [B. S. Halpern, et al., A global map of human impact on marine ecosytems. Science 321, 948–952 (2008).](https://www.science.org/doi/10.1126/science.1149345)
+
+- Impact can also be estimated using the Vessel Monitoring System or Automatic Identification System available from 2012 see [D. A. Kroodsma et al. Tracking the global footprint of fisheries. Science 908, 904–908 (2018).](https://www.science.org/doi/10.1126/science.aao5646)
+
+- Fish traits can be obtained from [FishBase.](https://www.fishbase.se/search.php)
+
+- [Ocean Biodiversity Information System (OBIS)](https://obis.org/) has point occurrence data for marine fauna and also from GBIF (https://www.gbif.org/es/). 
+
+- MODIS-Aqua for estimates of oceanic NPP. [Behrenfeld, M. J., & Falkowski, P. G. (1997). Photosynthetic rates derived from satellite-based chlorophyll concentration. Limnology and Oceanography, 42, 1–20.](https://doi.org/10.4319/lo.1997.42.1.0001)
+
+
+## Datasets organized by papers
 
   - (Lima-Mendez et al., [2015](#ref-Lima-Mendez2015-cr)):   - De Vargas
     et al. ([2015](#ref-devargas-2015-w4)[a](#ref-devargas-2015-w4)):
